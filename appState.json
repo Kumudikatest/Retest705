@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "1f732784-f2fc-4ec0-ba49-311c0d0c793a": {
+        "id": "1f732784-f2fc-4ec0-ba49-311c0d0c793a",
+        "parent": null,
+        "name": "Retest705",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4d0f6fac-debc-4794-9bbc-97552ecf5b48"
+        ],
+        "isRemovable": false,
+        "filePath": "Retest705"
+      },
+      "4d0f6fac-debc-4794-9bbc-97552ecf5b48": {
+        "id": "4d0f6fac-debc-4794-9bbc-97552ecf5b48",
+        "parent": "1f732784-f2fc-4ec0-ba49-311c0d0c793a",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Retest705/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "1f732784-f2fc-4ec0-ba49-311c0d0c793a",
+    "openFiles": [
+      "4d0f6fac-debc-4794-9bbc-97552ecf5b48"
+    ],
+    "currentFileId": "4d0f6fac-debc-4794-9bbc-97552ecf5b48",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Retest705",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568182186021
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Retest705",
+      "url": "https://github.com/Kumudikatest/Retest705"
+    }
+  }
+}
