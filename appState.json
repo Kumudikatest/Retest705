@@ -32,7 +32,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigusEast1TestAPIMyLambdaput",
+            "resourceName": "apigusEast1TestAPItestWithSlashany",
             "config": {}
           }
         ]
@@ -75,6 +75,38 @@
           "stageDeploymentId": "u3behr",
           "mode": 1
         }
+      },
+      "apigusEast1TestAPItestWithSlashany": {
+        "name": "apigusEast1TestAPItestWithSlashany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/MyLambda": "98nqbj",
+            "/": "h2lelj6j7k",
+            "/newchange/test": "k6pdhn",
+            "/newchange": "q1ox7l",
+            "/testWithSlash": "q4m4g1",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/testWithSlash",
+          "resourceName": "testWithSlash",
+          "resourceId": "q4m4g1",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": true,
+          "stageMode": 1,
+          "stageName": "prod",
+          "stageDeploymentId": "u3behr",
+          "mode": 1
+        }
       }
     },
     "customTemplate": {
@@ -102,7 +134,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568182349914
+    "lastSave": 1568182385448
   },
   "VCS_STATE": {
     "provider": "GitHub",
